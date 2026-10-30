@@ -12,6 +12,8 @@ upstream:
   version:
     type: github_release
     repo: hedgedoc/hedgedoc
+    require_assets:
+      - asset: '^hedgedoc\-.*\.tar\.gz$'
   notes:
     type: github_release
     repo: hedgedoc/hedgedoc
